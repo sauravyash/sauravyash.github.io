@@ -1,22 +1,44 @@
-<!doctype html>
+  <!doctype html>
 <html>
 <head>
-  <link type="text/css" href="main.css">
-  <title>Home | Frost</title>
-  <style>
-    html, body{
-      background-color: #ccc;
-    }
-  </style>
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <title>Home | Float</title>
+  <META NAME="Float - Social Media Aggregation" CONTENT="Aggregate all your social media accounts into this app. You will waste less time between and more time at your social accounts.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
   <nav>
     <div id="menubar">
-      <div class="menu">
+      <img id="logo" src="img/FLogo.png">
+      <div class="menu menuicon">
         <a>Home</a>
       </div>
-      <div class="menu">
-        <a>Log In | Sign Up</a>
+      <div class="svgmenuico menuicon" id="settings">
+        <svg class="nc-icon outline" x="0px" y="0px" width="2em" height="2em" viewBox="0 0 48 48">
+          <g transform="translate(0, 0)">
+            <circle data-color="color-2" fill="none" stroke="#777" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="24" cy="24" r="6" stroke-linejoin="miter">
+            </circle>
+            <path fill="none" stroke="#777" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M46,27v-6l-6.405-0.534 c-0.406-1.799-1.117-3.479-2.072-4.991l4.155-4.91l-4.243-4.243l-4.91,4.155c-1.513-0.956-3.192-1.666-4.991-2.072L27,2h-6 l-0.534,6.405c-1.799,0.406-3.479,1.117-4.991,2.072l-4.91-4.155l-4.243,4.243l4.155,4.91c-0.956,1.513-1.666,3.192-2.072,4.991 L2,21v6l6.405,0.534c0.406,1.799,1.117,3.479,2.072,4.991l-4.155,4.91l4.243,4.243l4.91-4.155c1.513,0.956,3.192,1.666,4.991,2.072 L21,46h6l0.534-6.405c1.799-0.406,3.479-1.117,4.991-2.072l4.91,4.155l4.243-4.243l-4.155-4.91c0.956-1.513,1.666-3.192,2.072-4.991 L46,27z" stroke-linejoin="miter">
+            </path>
+          </g>
+        </svg>
+      </div>
+      <div class="svgmenuico menuicon" id="notify">
+        <svg height="2em" viewBox="0 0 258 195">
+          <path fill="#777" d=" M 116.41 45.39 C 118.89 41.32 122.96 37.71 127.99 37.77 C 133.52 37.12 138.69 40.58 141.27 45.31 C 150.32 48.57 157.41 55.91 161.32 64.58 C 166.44 75.27 167.59 87.30 167.35 99.00 C 168.15 114.02 170.46 130.35 180.85 142.00 C 182.70 144.34 182.61 147.98 181.12 150.49 C 167.32 150.49 153.52 150.49 139.73 150.49 C 138.30 153.60 135.98 156.44 132.59 157.45 C 126.84 159.69 120.22 156.11 118.10 150.51 C 104.04 150.24 89.93 150.97 75.91 150.14 C 75.76 147.24 74.95 143.72 77.34 141.48 C 84.94 133.11 87.83 121.70 89.44 110.79 C 91.25 98.96 89.48 86.77 92.73 75.14 C 95.69 62.44 103.62 49.90 116.41 45.39 Z" />
+        </svg>
+      </div>
+      <div class="menuright menuicon" id="signup">
+        <a>Sign Up</a>
+      </div>
+      <div class="menuright menuicon" id="login">
+        <a>Log In</a>
       </div>
     </div>
   </nav>

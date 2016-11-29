@@ -1,19 +1,60 @@
-/*Main CSS File*/
+/* Main CSS File */
 html, body{
 	height: 100%;
 	width: 100%;
-	background-color: #ccc;
+	background-color: #ddd;
 	float: left;
 	padding:0px;
 	margin:0 auto;
 	overflow-x: hidden;
 }
 
-a {
-  color: black;
-	text-decoration: none;
+a { text-decoration: none; }
+
+#menubar {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+	background-color: #333;
+	opacity: 0.9;
+}
+
+.menuicon:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.menuicon svg:hover path {
+	fill: #333;
+	stroke: #333;
+}
+
+.menu, .menuright {
+  color: #ddd;
+  width: 8em;
+  height: 4em;
+  background-color: #333;
+	text-align: center;
+	line-height: 4em;
 }
 
 .menu {
-  color: #999;
+	float: left;
+}
+
+.menuright{
+	float: right;
+}
+
+#logo {
+  float: left;
+	background-color: #DF2020;
+	height: 4em;
+	border-right: solid 1px #ccc;
+}
+
+.svgmenuico {
+	background-color: #333;
+	float: right;
+	padding: 0.875em 0.5em;
 }
