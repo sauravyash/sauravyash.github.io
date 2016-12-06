@@ -3,7 +3,6 @@ html, body{
 	height: 100%;
 	width: 100%;
 	background-color: #ddd;
-	float: left;
 	padding:0px;
 	margin:0 auto;
 	overflow-x: hidden;
@@ -12,7 +11,7 @@ html, body{
 a { text-decoration: none; }
 
 #menubar {
-  width: 100%;
+	width: 100%;
   margin: 0 auto;
   position: fixed;
 	background-color: #333;
@@ -22,6 +21,8 @@ a { text-decoration: none; }
 .menuicon:hover {
 	background-color: #fff;
 	color: #333;
+	fill: #333;
+	stroke: #333;
 }
 
 .menuicon svg:hover path {
@@ -36,25 +37,29 @@ a { text-decoration: none; }
   background-color: #333;
 	text-align: center;
 	line-height: 4em;
+	font-size: 1.2em;
 }
 
 .menu {
 	float: left;
+	border-right: solid 1px #ccc;
 }
 
 .menuright{
 	float: right;
+	border-left: solid 1px #ccc;
 }
 
 #logo {
   float: left;
 	background-color: #DF2020;
-	height: 4em;
+	height: 4.8em;
 	border-right: solid 1px #ccc;
 }
 
 .svgmenuico {
 	background-color: #333;
 	float: right;
-	padding: 0.875em 0.5em;
+	padding: 1.2em 0.5em;
+	border-left: solid 1px #ccc;
 }
